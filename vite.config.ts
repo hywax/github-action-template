@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { builtinModules } from 'node:module'
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
@@ -19,4 +20,5 @@ export default defineConfig({
       preserveSymlinks: true,
     },
   },
+  test: {},
 })
