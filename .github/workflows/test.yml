@@ -1,0 +1,25 @@
+name: GitHub Actions Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  base:
+    name: Base Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test Local Action
+        id: base-action
+        uses: ./
+        with:
+          message: 'Hello, World! This is a test.'
+
+      - name: Print Output
+        id: output
+        run: echo "${{ steps.base-action.outputs.time }}"
