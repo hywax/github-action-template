@@ -3,5 +3,13 @@
   "type": "module",
   "private": true,
   "version": "0.0.0",
-  "scripts": {}
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "eslint": "npm:eslint-ts-patch@8.56.0-0",
+    "eslint-ts-patch": "8.56.0-0"
+  }
 }
