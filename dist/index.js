@@ -15746,7 +15746,7 @@ Nr.getOctokit = Vp;
 async function Op() {
   try {
     const A = pr.getInput("message");
-    pr.debug(`Event: ${ws.eventName}, Repo: ${ws.repo.repo}, SHA: ${ws.sha}`), pr.debug(`${A}`), pr.setOutput("time", 10);
+    pr.debug(`Event: ${ws.eventName}, Repo: ${ws.repo.repo}, SHA: ${ws.sha}`), pr.debug(`${A}`), pr.setOutput("resultMessage", `The message was: ${A}`);
   } catch (A) {
     A instanceof Error && pr.setFailed(A.message);
   }
