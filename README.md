@@ -12,7 +12,7 @@ Use this template to bootstrap the creation of a TypeScript action.
 * ♾️ GitHub CI for your build
 * 🤖 Ready configuration for [renovatebot](https://github.com/apps/renovate) with [renovate-config](https://github.com/hywax/renovate-config)
 * 🚀 Action releases with just one command
-* ⚠️ Ready-made templates for issue
+* ⚠️ Ready-made templates for [issue](https://github.com/hywax/github-action-template/issues/new/choose)
 
 ## Get started
 
