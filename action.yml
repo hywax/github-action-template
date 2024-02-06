@@ -1,0 +1,24 @@
+name: Unique of your action name
+description: Description of your action
+author: Your GitHub username
+
+# The action's inputs
+inputs:
+  message:
+    description: A greeting message
+    default: Hello, World!
+
+# The action's outputs
+outputs:
+  time:
+    description: The time we greeted you
+
+# Branding
+branding:
+  icon: activity
+  color: purple
+
+# The action's runs
+runs:
+  using: node20
+  main: dist/index.js
