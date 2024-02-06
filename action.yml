@@ -10,8 +10,8 @@ inputs:
 
 # The action's outputs
 outputs:
-  time:
-    description: The time we greeted you
+  resultMessage:
+    description: Result message
 
 # Branding
 branding:

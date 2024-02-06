@@ -8,7 +8,7 @@ export async function run(): Promise<void> {
     debug(`Event: ${context.eventName}, Repo: ${context.repo.repo}, SHA: ${context.sha}`)
     debug(`${message}`)
 
-    setOutput('time', 10)
+    setOutput('resultMessage', `The message was: ${message}`)
   } catch (error) {
     if (error instanceof Error) {
       setFailed(error.message)
