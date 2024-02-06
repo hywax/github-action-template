@@ -32,6 +32,7 @@
   },
   "scripts": {
     "build": "tsc && vite build",
+    "release": "pnpm test && pnpm build && changelogen --release && git push --follow-tags",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest --run",
