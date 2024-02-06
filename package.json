@@ -1,8 +1,7 @@
 {
-  "name": "vite-vanilla-vibrary",
+  "name": "github-actions-template",
   "type": "module",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
