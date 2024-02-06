@@ -22,4 +22,4 @@ jobs:
 
       - name: Print Output
         id: output
-        run: echo "${{ steps.base-action.outputs.time }}"
+        run: echo "${{ steps.base-action.outputs.resultMessage }}"
