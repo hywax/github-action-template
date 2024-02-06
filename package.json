@@ -2,6 +2,28 @@
   "name": "github-actions-template",
   "type": "module",
   "private": true,
+  "description": "A template for creating GitHub Actions",
+  "author": {
+    "name": "hywax",
+    "email": "me@hywax.space"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hywax/github-action-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/github-action-templat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hywax/github-action-template/issues"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "template"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
