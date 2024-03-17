@@ -10,9 +10,10 @@ Use this template to bootstrap the creation of a TypeScript action.
 * 🤝 Supports [conventional commits](https://www.conventionalcommits.org/)
 * 💅 Generate beautiful changelogs with [changelogen](https://github.com/unjs/changelogen)
 * ♾️ GitHub CI for your build
+* 📢 Issue templates
+* 📝 Pull request template
 * 🤖 Ready configuration for [renovatebot](https://github.com/apps/renovate) with [renovate-config](https://github.com/hywax/renovate-config)
 * 🚀 Action releases with just one command
-* ⚠️ Ready-made templates for [issue](https://github.com/hywax/github-action-template/issues/new/choose)
 
 ## Get started
 
