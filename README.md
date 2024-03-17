@@ -41,6 +41,10 @@ The template contains the following scripts:
 * `test:coverage` - Run all tests with code coverage report
 * `prepare` - Script for setting up husky hooks
 
+## Used by
+
+If you are using this template, feel free to open a PR to add your project to the list.
+
 ## License
 
 This template was created under the [MIT License](LICENSE).
