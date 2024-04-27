@@ -39,6 +39,7 @@ The template contains the following scripts:
 * `test` - Run all tests
 * `test:watch` - Run all tests with watch mode
 * `test:coverage` - Run all tests with code coverage report
+* `typecheck` - Run TypeScript type checking
 * `prepare` - Script for setting up husky hooks
 
 ## Used by
