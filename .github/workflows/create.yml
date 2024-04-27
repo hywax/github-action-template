@@ -1,0 +1,39 @@
+# WARNING!
+# Do not run on a working project! This script is needed only while using the template!
+
+name: Create Template
+
+on:
+  workflow_dispatch:
+  create:
+
+jobs:
+  create:
+    if: ${{ !github.event.repository.is_template }}
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # todo connect hywax/settings-action
+
+      - name: Update package.json
+        env:
+          GITHUB_REPOSITORY_DESCRIPTION: ${{ github.event.repository.description }}
+        run:
+          ./.github/scripts/rename.sh "$GITHUB_REPOSITORY" "$GITHUB_REPOSITORY_OWNER" "$GITHUB_REPOSITORY_DESCRIPTION"
+
+      - name: Remove files not needed in the user's copy of the template
+        run: |
+          rm -f "./.github/settings.yml"
+          rm -f "./.github/scripts/rename.sh"
+          rm -f "./.github/workflows/create.yml"
+
+      - name: Update initial commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: initial commit'
+          commit_options: '--amend'
+          push_options: '--force'
+          skip_fetch: true
