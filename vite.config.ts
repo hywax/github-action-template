@@ -12,6 +12,7 @@ export default defineConfig({
       fileName: 'index',
       formats: ['es'],
     },
+    sourcemap: true,
     rollupOptions: {
       external,
       output: {
