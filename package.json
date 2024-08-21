@@ -28,7 +28,7 @@
     }
   },
   "engines": {
-    "node": ">=20.16.0"
+    "node": ">=20.17.0"
   },
   "scripts": {
     "build": "tsc && vite build",
@@ -46,16 +46,16 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.26.0",
+    "@antfu/eslint-config": "^2.27.0",
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@vitest/coverage-v8": "^2.0.5",
     "changelogen": "^0.5.5",
     "eslint": "^9.9.0",
-    "husky": "^9.1.4",
+    "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "typescript": "^5.5.4",
-    "vite": "^5.4.1",
+    "vite": "^5.4.2",
     "vitest": "^2.0.5"
   },
   "lint-staged": {
