@@ -50,12 +50,12 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@vitest/coverage-v8": "^2.1.1",
-    "changelogen": "^0.5.5",
-    "eslint": "^9.10.0",
+    "changelogen": "^0.5.7",
+    "eslint": "^9.11.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "typescript": "^5.6.2",
-    "vite": "^5.4.6",
+    "vite": "^5.4.7",
     "vitest": "^2.1.1"
   },
   "lint-staged": {
