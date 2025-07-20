@@ -31,7 +31,7 @@ jobs:
           rm -f "./.github/workflows/create.yml"
 
       - name: Update initial commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'chore: initial commit'
           commit_options: '--amend'
