@@ -28,7 +28,7 @@
     }
   },
   "engines": {
-    "node": ">=22.17.1"
+    "node": ">=22.18.0"
   },
   "scripts": {
     "build": "tsc && vite build",
@@ -54,7 +54,7 @@
     "eslint": "^9.32.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.2",
     "vite": "^7.0.6",
     "vitest": "^3.2.4"
   },
