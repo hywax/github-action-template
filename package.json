@@ -55,7 +55,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "typescript": "^5.9.3",
-    "vite": "^7.2.6",
+    "vite": "^7.2.7",
     "vitest": "^3.2.4"
   },
   "lint-staged": {
