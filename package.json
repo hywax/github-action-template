@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1"
+    "@actions/github": "^7.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
