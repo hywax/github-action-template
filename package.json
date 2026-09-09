@@ -28,7 +28,7 @@
     }
   },
   "engines": {
-    "node": ">=22.23.1"
+    "node": ">=24.21.0"
   },
   "scripts": {
     "build": "tsc && vite build",
